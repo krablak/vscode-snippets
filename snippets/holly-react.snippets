@@ -1,0 +1,64 @@
+{
+	"React Stateless Functional Component as MobX observer": {
+		"prefix": "holly",
+		"body": [
+			"import * as React from 'react';",
+			"import { observer } from 'mobx-react';",
+			"",
+			"export interface ${1:Props} {",
+			"}",
+			"",
+			"export const $2: React.SFC<$1> = observer((props: $1) => {",
+			"\treturn (<React.Fragment />);",
+			"});"
+		],
+		"description": "Skeleton for React Stateless Functional Component"
+	},
+	"React Stateless Functional Component": {
+		"prefix": "holly",
+		"body": [
+			"import * as React from 'react';",
+			"",
+			"export interface ${1:Props} {",
+			"}",
+			"",
+			"export const $2: React.SFC<$1> = (props: $1) => {",
+			"\treturn (<React.Fragment />);",
+			"};"
+		],
+		"description": "Skeleton for React Stateless Functional Component"
+	},
+	"React Component as MobX observer": {
+		"prefix": "holly",
+		"body": [
+			"import * as React from 'react';",
+			"import { observer } from 'mobx-react';",
+			"",
+			"export interface ${1:Props} {",
+			"}",
+			"",
+			"@observer export class $2 extends React.Component<$1> {",
+			"\trender() {",
+			"\t\treturn (<React.Fragment />);",
+			"\t}",
+			"}"
+		],
+		"description": "Skeleton for React Stateless Functional Component"
+	},
+	"React Component": {
+		"prefix": "holly",
+		"body": [
+			"import * as React from 'react';",
+			"",
+			"export interface ${1:Props} {",
+			"}",
+			"",
+			"export class $2 extends React.Component<$1> {",
+			"\trender() {",
+			"\t\treturn (<React.Fragment />);",
+			"\t}",
+			"}"
+		],
+		"description": "Skeleton for React Stateless Functional Component"
+	}
+}
