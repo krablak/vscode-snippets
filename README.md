@@ -1,6 +1,6 @@
 # vscode-snippets
 
-Few basic snippets for FE development on Holly react projects.
+Few basic snippets for FE development on react projects.
 
 ## How to install snippets
 
